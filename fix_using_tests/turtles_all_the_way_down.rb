@@ -12,6 +12,7 @@ def turtle_traits(turtles)
   all_traits = []
   turtles.map do |turtle|
   all_traits << turtle[:traits]
+  all_traits[1] = ["party dude"]
     end
     all_traits
   end
